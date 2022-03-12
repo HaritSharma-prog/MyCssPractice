@@ -1,9 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("http://db.onlinewebfonts.com/c/1868e326d3ee28e5395f6efa2bc037bf?family=Eina01-Regular");
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=League+Spartan&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -13,4 +17,74 @@ a {
 
 * {
   box-sizing: border-box;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.left-panel {
+  background: rgba(0, 74, 223, 0.24);
+  backdrop-filter: blur(44px);
+}
+.hero-gradient-dark {
+  background: linear-gradient(180deg, #181818 0%, rgba(24, 24, 24, 0) 100%);
+  opacity: 0.6;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+  left: 70px;
+  top: 35px;
+}
+.text-color {
+  color: rgba(182, 220, 255, 1);
+}
+.bg_primary {
+  background-color: #458dea;
+}
+.bg-transparent {
+  border-color: #458dea;
+}
+.searchColor {
+  background: rgba(255, 255, 255, 0.3);
+}
+.bg-gray {
+  background: rgba(255, 255, 255, 0.2);
+}
+.bg-gradient {
+  background: linear-gradient(
+    180deg,
+    rgb(78, 150, 245) 0%,
+    rgba(255, 255, 255, 0.17) 100%
+  );
+}
+.bg1_gradient{
+  background: linear-gradient(180deg, rgba(192, 197, 207, 0.24) 0%, rgba(255, 255, 255, 0) 100%);
+}
+.bg2_gradient{
+  background: linear-gradient(180deg, rgba(192, 197, 207, 0.24) 0%, rgba(255, 255, 255, 0) 100%);
+backdrop-filter: blur(120px);
+
+}
+
+body {
+  background-image: url("/Noise base.svg");
+  background-repeat: repeat-x repeat-y;
+  background-size: cover;
+  overflow-x: hidden;
+}
+.page2_gradient{
+  background: linear-gradient(183.49deg, rgba(0, 74, 223, 0.24) 0.82%, rgba(231, 237, 242, 0.24) 97.09%);
+}
+.Page31_gradient{
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 44.79%, rgba(255, 255, 255, 0) 100%);
+}
+.Page9_background{
+  background: linear-gradient(180deg, #458DEA 0%, rgba(69, 141, 234, 0.53) 42.82%, rgba(69, 141, 234, 0) 100%);
+  transform: rotate(180deg);
+  
+}
+.back-background{
+  background: linear-gradient(0.13deg, #004ADF -51.4%, rgba(241, 246, 255, 0) 99.89%);
+  opacity: 1;
 }
